@@ -26,8 +26,12 @@ let asianCountries =data.filter(a=>a.region === 'Asia');
     console.log(asianCountries);
 
      Q3 countries using doller
-    let usdCountries = data.filter(a=>a.currency === 'doller');
-    console.log(usdCountries);
+    let curr=data.filter((ele=>{
+         for(var i in ele.currencies){
+              if (else.currencies[i].code==='USD'){
+     }
+        }).map(ele=>.console.log(ele.name));
+        }
     
     Q2. Get the countries with population less than 2L
 
