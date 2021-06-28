@@ -1,4 +1,4 @@
-Q1- Print odd numbers
+//Q1- Print odd numbers
 //Anonymous
 
 let  printOdd = function(n){
@@ -11,7 +11,7 @@ printOdd(12);
     (n%2 !== 0)?console.log("odd"):console.log("even");
 })(12);
 
-Q2 string into uppercase
+//Q2 string into uppercase
 
 //Anonymous 
 
@@ -25,7 +25,7 @@ uppercase("abc");
 (function (str){
     console.log(str.toUpperCase());
 })("abc");
-Q3- sum of all numers in array
+//Q3- sum of all numers in array
 
 // anonymous 
 
@@ -49,7 +49,7 @@ sum([1,2,3]);
 })([1,2,3]);
 
 
-Q7-REMOVE DUPLICATE FROM AN ARRAY
+//Q7-REMOVE DUPLICATE FROM AN ARRAY
 // Anonymous
 let remD =function(arr){
     let tempArr=[];
@@ -64,7 +64,7 @@ remD([1,2,3,4,5,4,6]);
     console.log([... new Set(arr)]);
 })([1,2,3,4,5,4,6]);
 
-Q8 - Rotate an array by k times
+//Q8 - Rotate an array by k times
 
 //Anonymous
 
