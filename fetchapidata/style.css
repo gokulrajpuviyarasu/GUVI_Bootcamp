@@ -1,0 +1,30 @@
+.rightside{
+    background-color: rgb(7, 244, 252);
+    height: auto;
+    padding: 50px 30px;
+   width: 100%;
+
+}
+.leftside{
+    background-color: rgb(210, 210, 216);
+    height: 100vh;
+    padding: 50px 90px;
+    width:100%;
+   
+}
+#table1{
+    margin: 0px 60px;
+    
+    align-content: center;
+    
+}
+
+.heading{
+    border: thick solid #01010e;
+    padding: 10px;
+    
+}
+.he1 , .he2 , .he3 , .he4{
+    border-left: thick solid #00000c;
+    padding: 10px;
+}
